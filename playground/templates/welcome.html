@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+<html>
+  <head>
+    <title> Welcome Page </title>
+  </head>
+  <body>
+    {% if student_name %}
+      <h1> Welcome {{student_name}}! </h1>
+    {% endif %}
+  </body>
+</html>
